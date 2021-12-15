@@ -1,0 +1,12 @@
+{
+    "token": "ODk1NzU3MDc4Njg0MTMxMzY4.YV9MyQ.iaSCHGZZhwBlhEIv-zOfEvUnJLc",
+    "prefix": "gen!",
+    "genChannel": "920414712326410250",
+    "genCooldown": "2147483646",
+    "color": {
+        "green": "0x43B581",
+        "yellow": "0xFAA61A",
+        "red": "0xF04747",
+        "default": "0x7289DA" 
+    }
+} 
