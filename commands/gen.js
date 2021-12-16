@@ -29,7 +29,7 @@ module.exports = {
                 // send message to channel
                 message.channel.send(
                     new Discord.MessageEmbed()
-                    .setColor(color.red)
+                    .setColor('0xF04747')
                     .setTitle('Cooldown')
                     .setDescription('Please wait before executing another command!')
                     .setFooter(message.author.tag, message.author.displayAvatarURL({ dynamic: true, size: 64 }))
@@ -110,7 +110,7 @@ module.exports = {
                             //embed
                             new Discord.MessageEmbed()
                             .setColor(config.color.green)
-                            .setTitle('Generated account')
+                            .setTitle('Generated Services')
                             .addField('Service', `${args[0]}`)
                             .addField('Account/Data', `\`\`\`${firstLine}\`\`\``)
                             .setTimestamp()
@@ -131,7 +131,7 @@ module.exports = {
                                     // embed
                                     new Discord.MessageEmbed()
                                     .setColor(config.color.green)
-                                    .setTitle('Account generated!')
+                                    .setTitle('Service Generated!')
                                     .setDescription(`Check your DMs ${message.author}! *If you do not recieved the message, please unlock your DMs!*`)
                                     .setFooter(message.author.tag, message.author.displayAvatarURL({ dynamic: true, size: 64 }))
                                     .setTimestamp()
